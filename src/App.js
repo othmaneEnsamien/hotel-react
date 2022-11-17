@@ -4,20 +4,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <table style={{
+      backgroundColor:'#000',
+      display:'block',
+      color:'#fff',
+      paddingLeft:16
+     }}>
+      <tbody>
+        <tr>
+          <td><img width="50"  src="green_app_con.svg"/> </td>
+          <td width="8"></td>
+          <h1>Movies search</h1>
+        </tr>
+       
+      </tbody>
+     </table>
     </div>
   );
 }
